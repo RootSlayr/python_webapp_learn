@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 
 
-@app.route("/hello")  # Add the decorator here
+@app.route("/")
 def hello():
-    return "Hello World"
+    return render_template("home.html")
 
 
 if __name__ == "__main__":

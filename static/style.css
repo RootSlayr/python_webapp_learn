@@ -1,0 +1,15 @@
+.hello-world-page {
+    font-family: Arial, sans-serif;
+    /* Set a font style */
+    background-color: #9317cc;
+    /* Add a background color */
+    padding: 20px;
+    /* Add padding */
+}
+
+h1 {
+    color: #51c722;
+    /* Set a color for h1 elements */
+    text-align: center;
+    /* Center align the text */
+}
