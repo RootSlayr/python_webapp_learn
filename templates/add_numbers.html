@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Numbers Page</title>
+</head>
+
+<body class=hello-world-page>
+    <h1>Add Numbers Page</h1>
+
+    <form action="/calculate" method="post">
+        <label for="num1">Enter first number:</label>
+        <input type="text" id="num1" name="num1"><br><br>
+        <label for="num2">Enter second number:</label>
+        <input type="text" id="num2" name="num2"><br><br>
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div>
+        <label for="result">Result:</label>
+        <input type="text" id="result" name="result" readonly value={{result}}>
+    </div>
+
+
+</body>
+
+</html>
