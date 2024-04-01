@@ -21,8 +21,9 @@ def calculate_sum():
     num_2 = int(request.form["num2"])
     print(num_1, num_2)
     ans = num_1 + num_2
+    expression = f"{num_1}+{num_2}={ans}"
     # print(ans)
-    return render_template("add_numbers.html", result=ans)
+    return render_template("add_numbers.html", result=ans, expression=expression)
 
 
 if __name__ == "__main__":
